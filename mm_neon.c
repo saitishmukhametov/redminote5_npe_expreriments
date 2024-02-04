@@ -260,9 +260,7 @@ int main() {
         cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
         printf("Time taken by matrix_multiply_neon: %f seconds\n", cpu_time_used);
 
-
-
-
+        return 0;
         //c_eq_neon = matrix_comp(E, D, n, m);
         //printf("Neon equal to C? %d\n", c_eq_neon);
         //printf("===============================\n");
